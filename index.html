@@ -34,7 +34,7 @@
 
         <div class="grid">
 
-            <div class="art-item">
+            <div class="art-item project">
                 <a href="project-ronin.html">
                     <img src="images/ronin-final.jpg" alt="Crimson Ronin Character Design">
                 </a>
@@ -150,7 +150,7 @@
 </div>
 
 <script>
-    const images = document.querySelectorAll('.art-item img');
+    const images = document.querySelectorAll('.art-item:not(.project) img');
     const modal = document.getElementById('imageModal');
     const modalImg = document.getElementById('modalImage');
     const modalTitle = document.getElementById('modalTitle');
