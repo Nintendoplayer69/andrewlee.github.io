@@ -347,7 +347,7 @@ height:auto;
 }
 
 .characterpic1{
-  background-image: url('../images/steinprofile.jpg');
+  background-image: url('images/steinprofile.jpg');
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
